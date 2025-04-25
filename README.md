@@ -58,10 +58,10 @@ This configuration allows us to observe how NSG rules affect network communicati
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/b7c0af54-55d4-4cf1-8add-af60d4222c5b"/>
+<img src="https://github.com/user-attachments/assets/98e259fd-84c6-4a00-9335-22ac3758f65b"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+During this step, Wireshark was used to monitor ICMP traffic between virtual machines. A continuous ping test was initiated, and the packet capture showed ICMP Echo Requests being sent but not receiving any Echo Replies. This behavior, along with "Request timed out" messages in PowerShell, indicates that the traffic was successfully blocked. The result demonstrates how Network Security Group (NSG) rules can control and restrict specific types of traffic, such as ICMP.
 </p>
 <br />
 
