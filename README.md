@@ -62,11 +62,11 @@ During this step, Wireshark was used to monitor ICMP traffic between virtual mac
 <br />
 
 <p>
-  <img src="https://github.com/user-attachments/assets/d92b1153-e95c-4776-9a39-34f7420975ff" width="30%"><br><sub>SSH Traffic</sub>
+  <img src="https://github.com/user-attachments/assets/d92b1153-e95c-4776-9a39-34f7420975ff" width="50%"><br><sub>SSH Traffic</sub>
   
-  <img src="https://github.com/user-attachments/assets/d8c9052b-02e9-4fba-b83a-abd8b2efefa6" width="30%"><br><sub>DNS Traffic</sub>
+  <img src="https://github.com/user-attachments/assets/d8c9052b-02e9-4fba-b83a-abd8b2efefa6" width="50%"><br><sub>DNS Traffic</sub>
   
-  <img src="https://github.com/user-attachments/assets/f30b7910-5265-4949-a79f-27632155f4a7" width="30%"><br><sub>RDP (Port 3389)</sub>
+  <img src="https://github.com/user-attachments/assets/f30b7910-5265-4949-a79f-27632155f4a7" width="50%"><br><sub>RDP (Port 3389)</sub>
 </p>
 <p>
 These images collectively demonstrate the impact of modifying Network Security Group (NSG) rules on traffic visibility and communication between virtual machines. The first screenshot shows successful SSH access to a VM, confirming that the relevant port is open. The second image captures DNS resolution activity, verifying name resolution functionality across the network. The third screenshot highlights RDP traffic on port 3389, showing secure remote desktop connections. Together, these tests illustrate how enabling or restricting specific ports in NSG rules directly influences network accessibility and security. Monitoring these interactions with tools like Wireshark reinforces key network security concepts in a practical context.
