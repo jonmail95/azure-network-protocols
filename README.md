@@ -39,10 +39,10 @@ Conduct experiments by modifying NSG rules and observing how changes affect traf
 <img src="https://github.com/user-attachments/assets/bd60f0f5-e414-484a-9769-9f5f035ae9df"/>
 </p>
 <p>
-> This screenshot shows the Azure Portal with two virtual machines deployed: `linux-vm` (Ubuntu Server 20.04) and `windows-vm` (Windows 10).  
-> Both VMs are part of the same resource group (`RG-Network-Activities`) and are running in the `East US 2` region, ensuring they can communicate efficiently within the same virtual network.  
-> Public IP addresses are assigned to each VM to allow remote access using SSH (Linux) and RDP (Windows).  
-> This setup serves as the foundation for experimenting with network traffic and applying Network Security Groups (NSGs).
+This screenshot shows the Azure Portal with two virtual machines deployed: `linux-vm` (Ubuntu Server 20.04) and `windows-vm` (Windows 10).  
+Both VMs are part of the same resource group (`RG-Network-Activities`) and are running in the `East US 2` region, ensuring they can communicate efficiently within the same virtual network.  
+Public IP addresses are assigned to each VM to allow remote access using SSH (Linux) and RDP (Windows).  
+This setup serves as the foundation for experimenting with network traffic and applying Network Security Groups (NSGs).
 </p>
 <br />
 
