@@ -47,6 +47,17 @@ This setup serves as the foundation for experimenting with network traffic and a
 <br />
 
 <p>
+<img src="https://github.com/user-attachments/assets/69cdd02e-f41b-4ceb-8907-a2f836aed7fb"/>
+</p>
+<p>
+In this step, a custom inbound security rule was added to the Network Security Group (NSG) associated with the `linux-vm`.  
+The rule specifically denies ICMPv4 traffic from any source to any destination, effectively blocking ping requests to the VM.  
+A priority value of 290 was set to ensure this rule takes precedence over the existing SSH rule (priority 300).  
+This configuration allows us to observe how NSG rules affect network communication, which will later be verified using traffic analysis tools like Wireshark.
+</p>
+<br />
+
+<p>
 <img src="https://github.com/user-attachments/assets/b7c0af54-55d4-4cf1-8add-af60d4222c5b"/>
 </p>
 <p>
