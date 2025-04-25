@@ -61,7 +61,7 @@ During this step, Wireshark was used to monitor ICMP traffic between virtual mac
 </p>
 <br />
 
-<p align="center">
+<p>
   <img src="https://github.com/user-attachments/assets/d92b1153-e95c-4776-9a39-34f7420975ff" width="30%"><br><sub>SSH Traffic</sub>
   
   <img src="https://github.com/user-attachments/assets/d8c9052b-02e9-4fba-b83a-abd8b2efefa6" width="30%"><br><sub>DNS Traffic</sub>
