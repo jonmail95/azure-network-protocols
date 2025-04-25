@@ -63,7 +63,9 @@ During this step, Wireshark was used to monitor ICMP traffic between virtual mac
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d92b1153-e95c-4776-9a39-34f7420975ff" width="30%"><br><sub>SSH Traffic</sub>
+  
   <img src="https://github.com/user-attachments/assets/d8c9052b-02e9-4fba-b83a-abd8b2efefa6" width="30%"><br><sub>DNS Traffic</sub>
+  
   <img src="https://github.com/user-attachments/assets/f30b7910-5265-4949-a79f-27632155f4a7" width="30%"><br><sub>RDP (Port 3389)</sub>
 </p>
 <p>
