@@ -27,7 +27,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - <h2>Provision Azure Virtual Machines and Network Resources: </h2>
 Set up two or more virtual machines (VMs) in Azure, along with the necessary virtual networks and subnets to enable communication between them.
-- <h3>Configure Network Security Groups (NSGs): </h3>
+- <h4>Configure Network Security Groups (NSGs): </h4>
 Create and apply NSGs to control inbound and outbound traffic rules between the VMs, defining which types of traffic are allowed or denied.
 - <h2>Capture Network Traffic with Wireshark: </h2>
 Install and use Wireshark on one or more VMs to monitor and analyze network packets, observing the impact of NSG rules on different traffic flows.
